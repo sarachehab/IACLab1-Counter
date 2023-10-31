@@ -217,7 +217,6 @@ Accessing that file through _WaveTrace_:
 
 To implement an asynchronous reset, modify the SystemVerilog file _counter.sv_.
 The line _always_ff @ (posedge clk)_ becomes _always_ff @ (posedge clk, posedge rst)_.
-That way, ----
 
 ``` SystemVerilog
 module counter #( 
