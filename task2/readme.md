@@ -84,7 +84,8 @@ Notice:
 
 Compiling and testing our code:
 
-![Testing the 7-segment displays](https://youtu.be/NcWlVew0rIs)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NcWlVew0rIs" frameborder="0" allowfullscreen></iframe>
+
 
 Vbuddy's flag can be used to enable/disable the counter:
 
@@ -93,7 +94,9 @@ Vbuddy's flag can be used to enable/disable the counter:
 
 We could also chose to display the output as a graph. For that, use the function `vbdPlot(int(top->count), 0, 255)`:
 
-![Counter values plotting](https://youtu.be/H9f1C2hQfdE)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H9f1C2hQfdE" frameborder="0" allowfullscreen></iframe>
+
+
 
 ## STEP 3 - Incrementing and Decrementing through Flag
 
@@ -124,7 +127,8 @@ endmodule
 
 Compiling and running the code:
 
-![Counter values plotting](https://youtu.be/W31bzB84tAY)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W31bzB84tAY" frameborder="0" allowfullscreen></iframe>
+
 
 ![counter incrementing and decrementing](../images/counter_decrementing_waveform.jpg)
 
