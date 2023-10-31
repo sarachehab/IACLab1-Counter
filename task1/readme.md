@@ -16,7 +16,7 @@ The synchronous nature of the counter translates into a delay of one clock cycle
 
 The counter's behaviour could then be summarised through the following state-diagram:
 
-![counter finite state machine](images/counter_statemachine.jpg)
+![counter finite state machine](../images/counter_statemachine.jpg)
 
 
 The SystemVerilog corresponding algorithm would then be:
@@ -47,7 +47,7 @@ Finally, the clever bit manipulation in _{{WIDTH-1{1'b0}}, en}_ allows for an in
 
 Here is the mapping between the SystemVerilog and the counter circuit synthesized via Verilator:
 
-![Synthesized Counter](images/SynthesizedCounter.jpg)[^1]
+![Synthesized Counter](../images/SynthesizedCounter.jpg)[^1]
 
 
 ## STEP 2 - Creating a TestBench
@@ -112,7 +112,7 @@ int main(int argc, char **argv, char **env)
 
 This program can be divided up into multiple sections:
 
-![Roles of different sections of the counter testbench](images/counter_tb.jpg)
+![Roles of different sections of the counter testbench](../images/counter_tb.jpg)
 [^1]
 ## STEP 3 - Compiling the SystemVerilog model with the testbench
 
@@ -143,7 +143,7 @@ In the terminal, type _./doit.sh_. A new file, _counter.vcd_, is created.
 
 Accessing that file through _WaveTrace_:
 
-![testbench waveform](images/task1_waveform1.jpg)
+![testbench waveform](../images/task1_waveform1.jpg)
 
 
 ## STEP 4 - Stop counting for 3 cycles once the counter reaches 9
@@ -211,7 +211,7 @@ In the terminal, type _./doit.sh_. A new file, _counter.vcd_, is created.
 
 Accessing that file through _WaveTrace_:
 
-![stall counter waveform](images/counter_stall_waveform.jpg)
+![stall counter waveform](../images/counter_stall_waveform.jpg)
 
 ## STEP 5 - Implementing an asynchronous Reset
 
@@ -242,7 +242,7 @@ In the terminal, type _./doit.sh_. A new file, _counter.vcd_, is created.
 
 Accessing that file through _WaveTrace_:
 
-![asynchronous reset waveform](images/counter_asynchronousreset_waveform.jpg)
+![asynchronous reset waveform](../images/counter_asynchronousreset_waveform.jpg)
 
 
 
