@@ -124,7 +124,8 @@ endmodule
 
 Compiling and running the code:
 
-![Counter values plotting](https://youtu.be/W31bzB84tAY)
+[![Video Title](https://img.youtube.com/vi/W31bzB84tAY/0.jpg)](https://www.youtube.com/watch?v=W31bzB84tAY)
+
 
 ![counter incrementing and decrementing](../images/counter_decrementing_waveform.jpg)
 
